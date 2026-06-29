@@ -1,0 +1,6 @@
+transformers==4.53.0
+torch>=2.3.0
+codecarbon>=3.0.0
+pandas>=2.2.2
+psutil>=6.0.0pip install -r requirements.txt
+accelerate>=0.33.0

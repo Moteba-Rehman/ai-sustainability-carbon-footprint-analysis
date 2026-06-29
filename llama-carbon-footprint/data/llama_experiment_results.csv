@@ -1,0 +1,26 @@
+Model,Run,Prompt,Runtime (s),Generated Text
+TinyLlama-1.1B-Chat-v1.0,1,Explain the importance of renewable energy.,0.4229,Explain the importance of renewable energy.
+TinyLlama-1.1B-Chat-v1.0,1,What is the carbon footprint of AI?,0.1426,What is the carbon footprint of AI?
+TinyLlama-1.1B-Chat-v1.0,1,How does machine learning help climate change?,0.0825,How does machine learning help climate change?
+TinyLlama-1.1B-Chat-v1.0,1,Explain large language models in simple words.,0.0812,Explain large language models in simple words.
+TinyLlama-1.1B-Chat-v1.0,1,What are sustainable AI practices?,0.0814,What are sustainable AI practices?
+TinyLlama-1.1B-Chat-v1.0,2,Explain the importance of renewable energy.,0.0814,Explain the importance of renewable energy.
+TinyLlama-1.1B-Chat-v1.0,2,What is the carbon footprint of AI?,0.0814,What is the carbon footprint of AI?
+TinyLlama-1.1B-Chat-v1.0,2,How does machine learning help climate change?,0.0813,How does machine learning help climate change?
+TinyLlama-1.1B-Chat-v1.0,2,Explain large language models in simple words.,0.0808,Explain large language models in simple words.
+TinyLlama-1.1B-Chat-v1.0,2,What are sustainable AI practices?,0.0807,What are sustainable AI practices?
+TinyLlama-1.1B-Chat-v1.0,3,Explain the importance of renewable energy.,0.0811,Explain the importance of renewable energy.
+TinyLlama-1.1B-Chat-v1.0,3,What is the carbon footprint of AI?,0.0812,What is the carbon footprint of AI?
+TinyLlama-1.1B-Chat-v1.0,3,How does machine learning help climate change?,0.0812,How does machine learning help climate change?
+TinyLlama-1.1B-Chat-v1.0,3,Explain large language models in simple words.,0.0811,Explain large language models in simple words.
+TinyLlama-1.1B-Chat-v1.0,3,What are sustainable AI practices?,0.0812,What are sustainable AI practices?
+TinyLlama-1.1B-Chat-v1.0,4,Explain the importance of renewable energy.,0.0814,Explain the importance of renewable energy.
+TinyLlama-1.1B-Chat-v1.0,4,What is the carbon footprint of AI?,0.081,What is the carbon footprint of AI?
+TinyLlama-1.1B-Chat-v1.0,4,How does machine learning help climate change?,0.0809,How does machine learning help climate change?
+TinyLlama-1.1B-Chat-v1.0,4,Explain large language models in simple words.,0.0812,Explain large language models in simple words.
+TinyLlama-1.1B-Chat-v1.0,4,What are sustainable AI practices?,0.0809,What are sustainable AI practices?
+TinyLlama-1.1B-Chat-v1.0,5,Explain the importance of renewable energy.,0.0812,Explain the importance of renewable energy.
+TinyLlama-1.1B-Chat-v1.0,5,What is the carbon footprint of AI?,0.0814,What is the carbon footprint of AI?
+TinyLlama-1.1B-Chat-v1.0,5,How does machine learning help climate change?,0.0813,How does machine learning help climate change?
+TinyLlama-1.1B-Chat-v1.0,5,Explain large language models in simple words.,0.0812,Explain large language models in simple words.
+TinyLlama-1.1B-Chat-v1.0,5,What are sustainable AI practices?,0.0812,What are sustainable AI practices?

@@ -1,0 +1,436 @@
+Model,Run,Prompt,Runtime (s),Generated Text
+gpt2,1,Explain the importance of renewable energy.,1.9285,"Explain the importance of renewable energy.
+
+The U.S. Department of Energy's Renewable Energy Laboratory (REL) is the nation's leading research and development center for renewable energy. The DOE's Renewable Energy Laboratory (REL) is the nation's leading research and"
+gpt2,1,What is the carbon footprint of AI?,0.4939,"What is the carbon footprint of AI?
+
+The carbon footprint of AI is a very important question. It is important to understand the impact of AI on the environment. It is important to understand the impact of AI on the environment.
+
+The carbon footprint of AI is a very important"
+gpt2,1,How does machine learning help climate change?,0.5077,"How does machine learning help climate change?
+
+Machine learning is a new field of research that has been gaining traction in recent years. It is a new way to understand the world around us. It is a new way to understand the world around us. It is a new way to understand"
+gpt2,1,Explain large language models in simple words.,0.4931,"Explain large language models in simple words.
+
+The following is a list of the most common languages used in the world.
+
+The following is a list of the most common languages used in the world.
+
+The following is a list of the most common languages used in the world"
+gpt2,1,What are sustainable AI practices?,0.5002,"What are sustainable AI practices?
+
+The most important thing to understand about sustainable AI practices is that they are not just about the AI. They are about the human-machine relationship.
+
+The human-machine relationship is a relationship between humans and machines. Humans are the most"
+gpt2,2,Explain the importance of renewable energy.,0.5017,"Explain the importance of renewable energy.
+
+The U.S. Department of Energy's Renewable Energy Laboratory (REL) is the nation's leading research and development center for renewable energy. The DOE's Renewable Energy Laboratory (REL) is the nation's leading research and"
+gpt2,2,What is the carbon footprint of AI?,0.5016,"What is the carbon footprint of AI?
+
+The carbon footprint of AI is a very important question. It is important to understand the impact of AI on the environment. It is important to understand the impact of AI on the environment.
+
+The carbon footprint of AI is a very important"
+gpt2,2,How does machine learning help climate change?,0.4994,"How does machine learning help climate change?
+
+Machine learning is a new field of research that has been gaining traction in recent years. It is a new way to understand the world around us. It is a new way to understand the world around us. It is a new way to understand"
+gpt2,2,Explain large language models in simple words.,0.5081,"Explain large language models in simple words.
+
+The following is a list of the most common languages used in the world.
+
+The following is a list of the most common languages used in the world.
+
+The following is a list of the most common languages used in the world"
+gpt2,2,What are sustainable AI practices?,0.4965,"What are sustainable AI practices?
+
+The most important thing to understand about sustainable AI practices is that they are not just about the AI. They are about the human-machine relationship.
+
+The human-machine relationship is a relationship between humans and machines. Humans are the most"
+gpt2,3,Explain the importance of renewable energy.,0.4956,"Explain the importance of renewable energy.
+
+The U.S. Department of Energy's Renewable Energy Laboratory (REL) is the nation's leading research and development center for renewable energy. The DOE's Renewable Energy Laboratory (REL) is the nation's leading research and"
+gpt2,3,What is the carbon footprint of AI?,0.5011,"What is the carbon footprint of AI?
+
+The carbon footprint of AI is a very important question. It is important to understand the impact of AI on the environment. It is important to understand the impact of AI on the environment.
+
+The carbon footprint of AI is a very important"
+gpt2,3,How does machine learning help climate change?,0.5222,"How does machine learning help climate change?
+
+Machine learning is a new field of research that has been gaining traction in recent years. It is a new way to understand the world around us. It is a new way to understand the world around us. It is a new way to understand"
+gpt2,3,Explain large language models in simple words.,0.4877,"Explain large language models in simple words.
+
+The following is a list of the most common languages used in the world.
+
+The following is a list of the most common languages used in the world.
+
+The following is a list of the most common languages used in the world"
+gpt2,3,What are sustainable AI practices?,0.4914,"What are sustainable AI practices?
+
+The most important thing to understand about sustainable AI practices is that they are not just about the AI. They are about the human-machine relationship.
+
+The human-machine relationship is a relationship between humans and machines. Humans are the most"
+gpt2,4,Explain the importance of renewable energy.,0.4871,"Explain the importance of renewable energy.
+
+The U.S. Department of Energy's Renewable Energy Laboratory (REL) is the nation's leading research and development center for renewable energy. The DOE's Renewable Energy Laboratory (REL) is the nation's leading research and"
+gpt2,4,What is the carbon footprint of AI?,0.4913,"What is the carbon footprint of AI?
+
+The carbon footprint of AI is a very important question. It is important to understand the impact of AI on the environment. It is important to understand the impact of AI on the environment.
+
+The carbon footprint of AI is a very important"
+gpt2,4,How does machine learning help climate change?,0.4882,"How does machine learning help climate change?
+
+Machine learning is a new field of research that has been gaining traction in recent years. It is a new way to understand the world around us. It is a new way to understand the world around us. It is a new way to understand"
+gpt2,4,Explain large language models in simple words.,0.5013,"Explain large language models in simple words.
+
+The following is a list of the most common languages used in the world.
+
+The following is a list of the most common languages used in the world.
+
+The following is a list of the most common languages used in the world"
+gpt2,4,What are sustainable AI practices?,0.4925,"What are sustainable AI practices?
+
+The most important thing to understand about sustainable AI practices is that they are not just about the AI. They are about the human-machine relationship.
+
+The human-machine relationship is a relationship between humans and machines. Humans are the most"
+gpt2,5,Explain the importance of renewable energy.,0.538,"Explain the importance of renewable energy.
+
+The U.S. Department of Energy's Renewable Energy Laboratory (REL) is the nation's leading research and development center for renewable energy. The DOE's Renewable Energy Laboratory (REL) is the nation's leading research and"
+gpt2,5,What is the carbon footprint of AI?,0.4994,"What is the carbon footprint of AI?
+
+The carbon footprint of AI is a very important question. It is important to understand the impact of AI on the environment. It is important to understand the impact of AI on the environment.
+
+The carbon footprint of AI is a very important"
+gpt2,5,How does machine learning help climate change?,0.5017,"How does machine learning help climate change?
+
+Machine learning is a new field of research that has been gaining traction in recent years. It is a new way to understand the world around us. It is a new way to understand the world around us. It is a new way to understand"
+gpt2,5,Explain large language models in simple words.,0.493,"Explain large language models in simple words.
+
+The following is a list of the most common languages used in the world.
+
+The following is a list of the most common languages used in the world.
+
+The following is a list of the most common languages used in the world"
+gpt2,5,What are sustainable AI practices?,0.5045,"What are sustainable AI practices?
+
+The most important thing to understand about sustainable AI practices is that they are not just about the AI. They are about the human-machine relationship.
+
+The human-machine relationship is a relationship between humans and machines. Humans are the most"
+gpt2-medium,1,Explain the importance of renewable energy.,0.9438,"Explain the importance of renewable energy.
+
+What is the role of the government in the development of renewable energy?
+
+The government has a role in the development of renewable energy. It has a role in the development of renewable energy. It has a role in the development of renewable"
+gpt2-medium,1,What is the carbon footprint of AI?,0.9253,"What is the carbon footprint of AI?
+
+The carbon footprint of AI is a complex issue. It is difficult to quantify the impact of AI on the environment, but it is clear that AI is a significant contributor to climate change.
+
+The impact of AI on the environment is a"
+gpt2-medium,1,How does machine learning help climate change?,0.9324,"How does machine learning help climate change?
+
+The answer is that it helps us understand how the climate system works.
+
+The climate system is a complex system of interactions between the Earth's atmosphere, oceans, land and ice.
+
+The Earth's atmosphere is made up of water"
+gpt2-medium,1,Explain large language models in simple words.,0.926,"Explain large language models in simple words.
+
+The following example shows how to use the language model in a simple sentence.
+
+The following example shows how to use the language model in a simple sentence.
+
+The following example shows how to use the language model in a simple sentence"
+gpt2-medium,1,What are sustainable AI practices?,0.9489,"What are sustainable AI practices?
+
+The term sustainable AI practices is used to describe practices that are designed to reduce the impact of AI on society. These practices are designed to reduce the impact of AI on society by reducing the impact of AI on human society.
+
+The term"
+gpt2-medium,2,Explain the importance of renewable energy.,0.9605,"Explain the importance of renewable energy.
+
+What is the role of the government in the development of renewable energy?
+
+The government has a role in the development of renewable energy. It has a role in the development of renewable energy. It has a role in the development of renewable"
+gpt2-medium,2,What is the carbon footprint of AI?,0.9389,"What is the carbon footprint of AI?
+
+The carbon footprint of AI is a complex issue. It is difficult to quantify the impact of AI on the environment, but it is clear that AI is a significant contributor to climate change.
+
+The impact of AI on the environment is a"
+gpt2-medium,2,How does machine learning help climate change?,0.959,"How does machine learning help climate change?
+
+The answer is that it helps us understand how the climate system works.
+
+The climate system is a complex system of interactions between the Earth's atmosphere, oceans, land and ice.
+
+The Earth's atmosphere is made up of water"
+gpt2-medium,2,Explain large language models in simple words.,0.9449,"Explain large language models in simple words.
+
+The following example shows how to use the language model in a simple sentence.
+
+The following example shows how to use the language model in a simple sentence.
+
+The following example shows how to use the language model in a simple sentence"
+gpt2-medium,2,What are sustainable AI practices?,0.9498,"What are sustainable AI practices?
+
+The term sustainable AI practices is used to describe practices that are designed to reduce the impact of AI on society. These practices are designed to reduce the impact of AI on society by reducing the impact of AI on human society.
+
+The term"
+gpt2-medium,3,Explain the importance of renewable energy.,0.9439,"Explain the importance of renewable energy.
+
+What is the role of the government in the development of renewable energy?
+
+The government has a role in the development of renewable energy. It has a role in the development of renewable energy. It has a role in the development of renewable"
+gpt2-medium,3,What is the carbon footprint of AI?,0.9477,"What is the carbon footprint of AI?
+
+The carbon footprint of AI is a complex issue. It is difficult to quantify the impact of AI on the environment, but it is clear that AI is a significant contributor to climate change.
+
+The impact of AI on the environment is a"
+gpt2-medium,3,How does machine learning help climate change?,0.9499,"How does machine learning help climate change?
+
+The answer is that it helps us understand how the climate system works.
+
+The climate system is a complex system of interactions between the Earth's atmosphere, oceans, land and ice.
+
+The Earth's atmosphere is made up of water"
+gpt2-medium,3,Explain large language models in simple words.,0.9179,"Explain large language models in simple words.
+
+The following example shows how to use the language model in a simple sentence.
+
+The following example shows how to use the language model in a simple sentence.
+
+The following example shows how to use the language model in a simple sentence"
+gpt2-medium,3,What are sustainable AI practices?,0.9264,"What are sustainable AI practices?
+
+The term sustainable AI practices is used to describe practices that are designed to reduce the impact of AI on society. These practices are designed to reduce the impact of AI on society by reducing the impact of AI on human society.
+
+The term"
+gpt2-medium,4,Explain the importance of renewable energy.,0.9559,"Explain the importance of renewable energy.
+
+What is the role of the government in the development of renewable energy?
+
+The government has a role in the development of renewable energy. It has a role in the development of renewable energy. It has a role in the development of renewable"
+gpt2-medium,4,What is the carbon footprint of AI?,0.9199,"What is the carbon footprint of AI?
+
+The carbon footprint of AI is a complex issue. It is difficult to quantify the impact of AI on the environment, but it is clear that AI is a significant contributor to climate change.
+
+The impact of AI on the environment is a"
+gpt2-medium,4,How does machine learning help climate change?,0.9081,"How does machine learning help climate change?
+
+The answer is that it helps us understand how the climate system works.
+
+The climate system is a complex system of interactions between the Earth's atmosphere, oceans, land and ice.
+
+The Earth's atmosphere is made up of water"
+gpt2-medium,4,Explain large language models in simple words.,0.898,"Explain large language models in simple words.
+
+The following example shows how to use the language model in a simple sentence.
+
+The following example shows how to use the language model in a simple sentence.
+
+The following example shows how to use the language model in a simple sentence"
+gpt2-medium,4,What are sustainable AI practices?,0.9046,"What are sustainable AI practices?
+
+The term sustainable AI practices is used to describe practices that are designed to reduce the impact of AI on society. These practices are designed to reduce the impact of AI on society by reducing the impact of AI on human society.
+
+The term"
+gpt2-medium,5,Explain the importance of renewable energy.,0.8985,"Explain the importance of renewable energy.
+
+What is the role of the government in the development of renewable energy?
+
+The government has a role in the development of renewable energy. It has a role in the development of renewable energy. It has a role in the development of renewable"
+gpt2-medium,5,What is the carbon footprint of AI?,0.893,"What is the carbon footprint of AI?
+
+The carbon footprint of AI is a complex issue. It is difficult to quantify the impact of AI on the environment, but it is clear that AI is a significant contributor to climate change.
+
+The impact of AI on the environment is a"
+gpt2-medium,5,How does machine learning help climate change?,0.9087,"How does machine learning help climate change?
+
+The answer is that it helps us understand how the climate system works.
+
+The climate system is a complex system of interactions between the Earth's atmosphere, oceans, land and ice.
+
+The Earth's atmosphere is made up of water"
+gpt2-medium,5,Explain large language models in simple words.,0.9079,"Explain large language models in simple words.
+
+The following example shows how to use the language model in a simple sentence.
+
+The following example shows how to use the language model in a simple sentence.
+
+The following example shows how to use the language model in a simple sentence"
+gpt2-medium,5,What are sustainable AI practices?,0.9146,"What are sustainable AI practices?
+
+The term sustainable AI practices is used to describe practices that are designed to reduce the impact of AI on society. These practices are designed to reduce the impact of AI on society by reducing the impact of AI on human society.
+
+The term"
+gpt2-large,1,Explain the importance of renewable energy.,1.5415,"Explain the importance of renewable energy.
+
+What is the role of the federal government in promoting renewable energy?
+
+What is the role of the federal government in promoting renewable energy?
+
+What is the role of the federal government in promoting renewable energy?
+
+What is the"
+gpt2-large,1,What is the carbon footprint of AI?,1.5487,"What is the carbon footprint of AI?
+
+The carbon footprint of AI is a complex issue. It is not a simple matter of how much energy is used to build an AI, but rather how much energy is used to run the AI.
+
+The energy used to build an AI"
+gpt2-large,1,How does machine learning help climate change?,1.4501,"How does machine learning help climate change?
+
+The first step is to understand the problem. The second step is to find a way to solve it. The third step is to make the solution work.
+
+The first step is to understand the problem. The second step is to find"
+gpt2-large,1,Explain large language models in simple words.,1.3478,"Explain large language models in simple words.
+
+Explain how to use the language model to solve problems.
+
+Explain how to use the language model to solve problems.
+
+Explain how to use the language model to solve problems.
+
+Explain how to use the"
+gpt2-large,1,What are sustainable AI practices?,1.3599,"What are sustainable AI practices?
+
+Sustainable AI practices are practices that are designed to reduce the impact of AI on the environment. These practices include:
+
+Designing AI systems that are not only safe but also efficient.
+
+Designing AI systems that are not only"
+gpt2-large,2,Explain the importance of renewable energy.,1.326,"Explain the importance of renewable energy.
+
+What is the role of the federal government in promoting renewable energy?
+
+What is the role of the federal government in promoting renewable energy?
+
+What is the role of the federal government in promoting renewable energy?
+
+What is the"
+gpt2-large,2,What is the carbon footprint of AI?,1.3355,"What is the carbon footprint of AI?
+
+The carbon footprint of AI is a complex issue. It is not a simple matter of how much energy is used to build an AI, but rather how much energy is used to run the AI.
+
+The energy used to build an AI"
+gpt2-large,2,How does machine learning help climate change?,1.3576,"How does machine learning help climate change?
+
+The first step is to understand the problem. The second step is to find a way to solve it. The third step is to make the solution work.
+
+The first step is to understand the problem. The second step is to find"
+gpt2-large,2,Explain large language models in simple words.,1.331,"Explain large language models in simple words.
+
+Explain how to use the language model to solve problems.
+
+Explain how to use the language model to solve problems.
+
+Explain how to use the language model to solve problems.
+
+Explain how to use the"
+gpt2-large,2,What are sustainable AI practices?,1.3651,"What are sustainable AI practices?
+
+Sustainable AI practices are practices that are designed to reduce the impact of AI on the environment. These practices include:
+
+Designing AI systems that are not only safe but also efficient.
+
+Designing AI systems that are not only"
+gpt2-large,3,Explain the importance of renewable energy.,1.332,"Explain the importance of renewable energy.
+
+What is the role of the federal government in promoting renewable energy?
+
+What is the role of the federal government in promoting renewable energy?
+
+What is the role of the federal government in promoting renewable energy?
+
+What is the"
+gpt2-large,3,What is the carbon footprint of AI?,1.3458,"What is the carbon footprint of AI?
+
+The carbon footprint of AI is a complex issue. It is not a simple matter of how much energy is used to build an AI, but rather how much energy is used to run the AI.
+
+The energy used to build an AI"
+gpt2-large,3,How does machine learning help climate change?,1.3292,"How does machine learning help climate change?
+
+The first step is to understand the problem. The second step is to find a way to solve it. The third step is to make the solution work.
+
+The first step is to understand the problem. The second step is to find"
+gpt2-large,3,Explain large language models in simple words.,1.3291,"Explain large language models in simple words.
+
+Explain how to use the language model to solve problems.
+
+Explain how to use the language model to solve problems.
+
+Explain how to use the language model to solve problems.
+
+Explain how to use the"
+gpt2-large,3,What are sustainable AI practices?,1.3296,"What are sustainable AI practices?
+
+Sustainable AI practices are practices that are designed to reduce the impact of AI on the environment. These practices include:
+
+Designing AI systems that are not only safe but also efficient.
+
+Designing AI systems that are not only"
+gpt2-large,4,Explain the importance of renewable energy.,1.348,"Explain the importance of renewable energy.
+
+What is the role of the federal government in promoting renewable energy?
+
+What is the role of the federal government in promoting renewable energy?
+
+What is the role of the federal government in promoting renewable energy?
+
+What is the"
+gpt2-large,4,What is the carbon footprint of AI?,1.4136,"What is the carbon footprint of AI?
+
+The carbon footprint of AI is a complex issue. It is not a simple matter of how much energy is used to build an AI, but rather how much energy is used to run the AI.
+
+The energy used to build an AI"
+gpt2-large,4,How does machine learning help climate change?,1.3855,"How does machine learning help climate change?
+
+The first step is to understand the problem. The second step is to find a way to solve it. The third step is to make the solution work.
+
+The first step is to understand the problem. The second step is to find"
+gpt2-large,4,Explain large language models in simple words.,1.3451,"Explain large language models in simple words.
+
+Explain how to use the language model to solve problems.
+
+Explain how to use the language model to solve problems.
+
+Explain how to use the language model to solve problems.
+
+Explain how to use the"
+gpt2-large,4,What are sustainable AI practices?,1.3684,"What are sustainable AI practices?
+
+Sustainable AI practices are practices that are designed to reduce the impact of AI on the environment. These practices include:
+
+Designing AI systems that are not only safe but also efficient.
+
+Designing AI systems that are not only"
+gpt2-large,5,Explain the importance of renewable energy.,1.3642,"Explain the importance of renewable energy.
+
+What is the role of the federal government in promoting renewable energy?
+
+What is the role of the federal government in promoting renewable energy?
+
+What is the role of the federal government in promoting renewable energy?
+
+What is the"
+gpt2-large,5,What is the carbon footprint of AI?,1.395,"What is the carbon footprint of AI?
+
+The carbon footprint of AI is a complex issue. It is not a simple matter of how much energy is used to build an AI, but rather how much energy is used to run the AI.
+
+The energy used to build an AI"
+gpt2-large,5,How does machine learning help climate change?,1.3636,"How does machine learning help climate change?
+
+The first step is to understand the problem. The second step is to find a way to solve it. The third step is to make the solution work.
+
+The first step is to understand the problem. The second step is to find"
+gpt2-large,5,Explain large language models in simple words.,1.3941,"Explain large language models in simple words.
+
+Explain how to use the language model to solve problems.
+
+Explain how to use the language model to solve problems.
+
+Explain how to use the language model to solve problems.
+
+Explain how to use the"
+gpt2-large,5,What are sustainable AI practices?,1.3354,"What are sustainable AI practices?
+
+Sustainable AI practices are practices that are designed to reduce the impact of AI on the environment. These practices include:
+
+Designing AI systems that are not only safe but also efficient.
+
+Designing AI systems that are not only"
