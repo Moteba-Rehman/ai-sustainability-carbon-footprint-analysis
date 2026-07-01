@@ -1,166 +1,227 @@
 # AI Sustainability: Carbon Footprint Analysis
 
-A research project focused on understanding, measuring, and analyzing the carbon footprint of Generative AI systems through literature review, carbon accounting tools, and practical experimentation.
+A research project focused on understanding, measuring, and analyzing the carbon footprint of Generative AI systems through literature review, carbon accounting tools, and practical experimentation on open-source Large Language Models (LLMs).
 
 ---
 
 ## Project Overview
 
-This repository contains the work completed as part of an 8-week research internship on **Generative AI Carbon Footprint Analysis**. The project explores how Generative AI models consume energy, generate carbon emissions, and how these environmental impacts can be measured using carbon accounting tools and practical experiments.
+This repository contains the work completed as part of an 8-week research internship on **Generative AI Carbon Footprint Analysis**. The project investigates how Generative AI models consume computational resources, energy, and generate carbon emissions during inference. Carbon accounting tools and standardized experiments were used to evaluate and compare the environmental impact of multiple open-source language models.
 
-The repository will be continuously updated throughout the internship with reports, source code, experiment logs, datasets, visualizations, and comparative analyses.
+The repository includes literature review reports, carbon tracking tool evaluations, experiment source code, datasets, comparison reports, visualizations, and supporting documentation.
 
 ---
 
 ## Objectives
 
-* Understand the environmental impact of Generative AI systems through literature review.
-* Study methodologies used to estimate AI-related carbon emissions.
-* Evaluate carbon accounting tools for software and AI workloads.
-* Measure energy consumption and carbon emissions of AI models.
-* Compare different tools and models based on their environmental impact.
-* Present findings through reports, dashboards, and data visualizations.
+- Understand the environmental impact of Generative AI systems through literature review.
+- Study methodologies used to estimate AI-related carbon emissions.
+- Evaluate carbon accounting tools for AI workloads.
+- Measure runtime, energy consumption, and carbon emissions of language models.
+- Compare multiple open-source LLMs under identical experimental conditions.
+- Promote environmentally sustainable AI through carbon-aware experimentation.
 
 ---
 
 ## Repository Structure
 
-```
+```text
 .
-├── reports/
-├── code/
-├── experiment_logs/
-├── comparison_tables/
-├── screenshots/
-└── gpt2-carbon-footprint/
+├── literature-review/
+├── co2-tracking-tools/
+├── gpt2-carbon-footprint/
+├── llama-carbon-footprint/
+├── qwen-carbon-footprint/
+├── mistral-carbon-footprint/
+├── comparison/
+├── README.md
+├── requirements.txt
+└── .gitignore
 ```
 
 ---
 
 ## Work Completed
 
-### Literature Review and Problem Understanding
+### Literature Review
 
-* Reviewed foundational and recent research on the environmental impact of Generative AI.
-* Studied carbon footprint estimation methodologies.
-* Compared major research findings and identified open research challenges.
+- Reviewed foundational and recent research on the environmental impact of Generative AI.
+- Studied carbon footprint estimation methodologies.
+- Compared major research findings and identified current research challenges.
+
+---
 
 ### CO₂ Tracking Tools
 
-Explored and evaluated:
+Evaluated:
 
-* CodeCarbon
-* CarbonTracker
+- CodeCarbon
+- CarbonTracker
 
 Activities included:
 
-* Tool installation and configuration
-* Documentation review
-* Simple workload experiments
-* Energy and carbon emission measurements
+- Tool installation and configuration
+- Documentation review
+- Matrix multiplication experiment
+- Large array sorting experiment
+- Python loop experiment
+- Runtime measurement
+- Energy consumption measurement
+- Carbon emission measurement
+- Comparative analysis of both tools
 
 ---
 
-### Experimental Work
+### GPT-2 Carbon Footprint Analysis
 
-Implemented and tested:
+Conducted inference experiments on:
 
-* Matrix Multiplication
-* Sorting Large Arrays
-* Python Loop
+- GPT-2
+- GPT-2 Medium
+- GPT-2 Large
 
-Collected:
+Generated:
 
-* Energy consumption
-* Carbon emissions
-* Runtime measurements
-* Hardware information
-
----
-
-### Tool Comparison
-
-Compared CodeCarbon and CarbonTracker based on:
-
-* Installation difficulty
-* Ease of use
-* Energy reporting
-* Carbon emission reporting
-* Output detail
-* Suitability for AI experiments
+- Inference scripts
+- CodeCarbon logs
+- Carbon emission reports
+- Hardware specification report
+- FLOPs estimation report
 
 ---
 
-### GPT-2 Carbon Footprint Measurement
+### TinyLlama Carbon Footprint Analysis
 
-Implemented scripts to measure the environmental impact of GPT-2 inference.
+Conducted inference experiments using:
 
-Included:
+- TinyLlama-1.1B-Chat-v1.0
 
-* GPT-2 inference
-* Energy measurement
-* Carbon emissions calculation
-* Carbon intensity data
-* Hardware specifications
-* FLOPs estimation
+Generated:
+
+- Inference scripts
+- CodeCarbon logs
+- Carbon emission reports
+- Hardware specification report
+- FLOPs estimation report
 
 ---
 
-## Tools Used
+### Qwen Carbon Footprint Analysis
 
-* Python
-* CodeCarbon
-* CarbonTracker
-* Hugging Face Transformers
-* NumPy
-* Pandas
+Conducted inference experiments using:
+
+- Qwen2.5-1.5B-Instruct
+
+Generated:
+
+- Inference scripts
+- CodeCarbon logs
+- Carbon emission reports
+- Hardware specification report
+- FLOPs estimation report
+
+---
+
+### Mistral Carbon Footprint Analysis
+
+Conducted inference experiments using:
+
+- Mistral-7B-Instruct-v0.3
+
+Generated:
+
+- Inference scripts
+- CodeCarbon logs
+- Carbon emission reports
+- Hardware specification report
+- FLOPs estimation report
+
+---
+
+### Comparative Analysis
+
+Performed comparative analysis across:
+
+- GPT-2
+- GPT-2 Medium
+- GPT-2 Large
+- TinyLlama-1.1B-Chat-v1.0
+- Qwen2.5-1.5B-Instruct
+- Mistral-7B-Instruct-v0.3
+
+Comparison metrics include:
+
+- Total runtime
+- Runtime per inference
+- Total CO₂ emissions
+- CO₂ emissions per inference
+- GPU hours
+- Estimated energy consumption
+- Performance visualizations
+
+---
+
+## Tools & Technologies
+
+- Python
+- PyTorch
+- Hugging Face Transformers
+- CodeCarbon
+- CarbonTracker
+- Pandas
+- NumPy
+- Matplotlib
+- Kaggle Notebooks
+- Git
+- GitHub
+- Hugging Face
 
 ---
 
 ## Repository Contents
 
-* Literature review reports
-* Python source code
-* Experiment logs
-* Comparison tables
-* Screenshots
-* Carbon emission datasets
-* GPT-2 inference experiments
+- Literature review reports
+- CO₂ tracking tool reports
+- Python source code
+- Experiment datasets
+- CodeCarbon logs
+- Carbon emission reports
+- Hardware specification reports
+- FLOPs estimation reports
+- Comparison reports
+- CSV datasets
+- Visualizations
+- Screenshots
 
 ---
 
 ## Project Outputs
 
-This project is also available on the following platforms:
+### GitHub Repository
 
-* **GitHub:** https://github.com/Moteba-Rehman/ai-sustainability-carbon-footprint-analysis
-* **Hugging Face Space:** https://huggingface.co/spaces/MotebaRehman/ai-carbon-footprint-dashboard
-* **Hugging Face Dataset:** https://huggingface.co/datasets/MotebaRehman/ai-carbon-footprint-experiment-logs
-* **Kaggle Notebook:** https://www.kaggle.com/code/moteba/ai-carbon-footprint-analysis-tool-comparison
+https://github.com/Moteba-Rehman/ai-sustainability-carbon-footprint-analysis
+
+### Hugging Face Space
+
+https://huggingface.co/spaces/MotebaRehman/ai-carbon-footprint-dashboard
+
+### Hugging Face Dataset
+
+https://huggingface.co/datasets/MotebaRehman/ai-carbon-footprint-experiment-logs
+
+### Kaggle Notebook
+
+https://www.kaggle.com/code/moteba/ai-carbon-footprint-analysis-tool-comparison
 
 ---
 
 ## Key Findings
 
-* AI model training and inference both contribute to carbon emissions.
-* Hardware efficiency significantly affects environmental impact.
-* Carbon accounting tools produce different estimates because they use different methodologies.
-* CodeCarbon provides more detailed reporting for software energy measurements.
-* Measuring the environmental impact of commercial large language models remains challenging due to limited public information.
-
----
-
-## Future Work
-
-The repository will be updated throughout the internship with:
-
-* LLaMA inference experiments
-* GPT-2 vs. LLaMA comparison
-* Additional energy profiling experiments
-* Interactive dashboards
-* Data visualizations
-* Comparative analyses
-* Final research outcomes
+- Carbon emissions generally increase with computational workload and inference time.
+- Larger language models require greater computational resources and produce higher estimated carbon emissions.
+- Efficient modern transformer architectures such as TinyLlama demonstrate lower environmental impact despite competitive performance.
+- CodeCarbon provides detailed runtime, energy, and carbon emission measurements suitable for AI workloads.
+- Model architecture, inference optimization, and hardware acceleration significantly influence the environmental sustainability of Generative AI systems.
 
 ---
 

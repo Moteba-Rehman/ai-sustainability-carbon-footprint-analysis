@@ -1,27 +1,44 @@
-import time
-import pandas as pd
-
+from codecarbon import EmissionsTracker
 from transformers import pipeline
+import pandas as pd
+import time
+import torch
 
-MODELS = [
-    "gpt2",
-    "gpt2-medium",
-    "gpt2-large"
+# Same prompts as GPT-2
+prompts = [
+    "Explain the importance of renewable energy.",
+    "What is the carbon footprint of AI?",
+    "How does machine learning help climate change?",
+    "Explain large language models in simple words.",
+    "What are sustainable AI practices?"
 ]
 
-with open("data/prompts.txt", "r", encoding="utf-8") as file:
-    prompts = [line.strip() for line in file if line.strip()]
+# Official Meta LLaMA model
+model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+
+device = 0 if torch.cuda.is_available() else -1
+
+print(f"Loading {model_name}...")
+
+generator = pipeline(
+    "text-generation",
+    model=model_name,
+    device=device
+)
 
 results = []
 
-for model_name in MODELS:
+tracker = EmissionsTracker(
+    project_name="Llama-3.2-1B",
+    output_file="llama_codecarbon_logs.csv",
+    log_level="error"
+)
 
-    print(f"\nLoading {model_name}...")
+tracker.start()
 
-    generator = pipeline(
-        "text-generation",
-        model=model_name
-    )
+total_runtime = 0
+
+for run in range(1, 6):
 
     for prompt in prompts:
 
@@ -33,28 +50,32 @@ for model_name in MODELS:
             do_sample=False
         )
 
-        end = time.time()
+        runtime = time.time() - start
+        total_runtime += runtime
 
-        runtime = round(end - start, 4)
+        results.append({
+            "Model": "TinyLlama-1.1B-Chat-v1.0",
+            "Run": run,
+            "Prompt": prompt,
+            "Runtime (s)": round(runtime, 4),
+            "Generated Text": output[0]["generated_text"]
+        })
 
-        generated_text = output[0]["generated_text"]
+emissions = tracker.stop()
 
-        results.append(
-            {
-                "model": model_name,
-                "prompt": prompt,
-                "runtime_seconds": runtime,
-                "generated_text": generated_text
-            }
-        )
+experiment_df = pd.DataFrame(results)
 
-        print(f"{model_name}: {runtime} seconds")
+carbon_df = pd.DataFrame([{
+    "Model": "TinyLlama-1.1B-Chat-v1.0",
+    "Total Runs": 25,
+    "Total Runtime (s)": round(total_runtime, 4),
+    "CO2 Emissions (kg)": emissions
+}])
 
-df = pd.DataFrame(results)
+experiment_df.to_csv("llama_experiment_results.csv", index=False)
+carbon_df.to_csv("llama_carbon_emissions_report.csv", index=False)
 
-df.to_csv(
-    "inference_results.csv",
-    index=False
-)
+print("✅ LLaMA experiment completed!")
 
-print("\nSaved: inference_results.csv")
+display(experiment_df.head())
+display(carbon_df)

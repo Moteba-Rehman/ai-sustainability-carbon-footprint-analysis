@@ -1,0 +1,96 @@
+Model,Run,Prompt,Runtime (s),Generated Text,CO2 Emissions (kg)
+Mistral-7B-Instruct-v0.3,1,Explain the importance of renewable energy.,3.8829,"Explain the importance of renewable energy.
+
+Renewable energy is crucial for several reasons:
+
+1. Sustainability: Renewable energy sources, such as solar, wind, hydro, and geothermal, are virtually inexhaustible. Unlike fossil",4.2806660083854834e-05
+Mistral-7B-Instruct-v0.3,1,What is the carbon footprint of AI?,3.8064,"What is the carbon footprint of AI?
+
+Artificial intelligence (AI) is a rapidly growing field that has the potential to revolutionize many aspects of our lives, from healthcare to transportation to entertainment. However, like any technology, AI has an environmental impact, and its carbon footprint",4.228019132240241e-05
+Mistral-7B-Instruct-v0.3,1,How does machine learning help climate change?,3.7862,"How does machine learning help climate change?
+
+Machine learning can help address climate change in several ways:
+
+1. Predictive Modeling: Machine learning algorithms can be used to create more accurate models of climate systems, helping scientists better understand the causes and effects of climate change.",4.2296232563593176e-05
+Mistral-7B-Instruct-v0.3,1,Explain large language models in simple words.,3.7833,"Explain large language models in simple words.
+
+Large language models are computer programs that have been trained on a vast amount of text data. They are designed to understand and generate human-like text based on the input they receive. These models can answer questions, write essays, summarize articles",4.249481938802829e-05
+Mistral-7B-Instruct-v0.3,1,What are sustainable AI practices?,3.7918,"What are sustainable AI practices?
+
+Sustainable AI practices refer to the methods and strategies used to ensure that the development, deployment, and use of artificial intelligence (AI) systems are environmentally friendly, socially responsible, and economically viable. These practices aim to minimize",4.235356437261972e-05
+Mistral-7B-Instruct-v0.3,2,Explain the importance of renewable energy.,3.808,"Explain the importance of renewable energy.
+
+Renewable energy is crucial for several reasons:
+
+1. Sustainability: Renewable energy sources, such as solar, wind, hydro, and geothermal, are virtually inexhaustible. Unlike fossil",4.258525128652496e-05
+Mistral-7B-Instruct-v0.3,2,What is the carbon footprint of AI?,3.8129,"What is the carbon footprint of AI?
+
+Artificial intelligence (AI) is a rapidly growing field that has the potential to revolutionize many aspects of our lives, from healthcare to transportation to entertainment. However, like any technology, AI has an environmental impact, and its carbon footprint",4.247705148014307e-05
+Mistral-7B-Instruct-v0.3,2,How does machine learning help climate change?,3.8193,"How does machine learning help climate change?
+
+Machine learning can help address climate change in several ways:
+
+1. Predictive Modeling: Machine learning algorithms can be used to create more accurate models of climate systems, helping scientists better understand the causes and effects of climate change.",4.251361265997515e-05
+Mistral-7B-Instruct-v0.3,2,Explain large language models in simple words.,3.8298,"Explain large language models in simple words.
+
+Large language models are computer programs that have been trained on a vast amount of text data. They are designed to understand and generate human-like text based on the input they receive. These models can answer questions, write essays, summarize articles",4.2987389784645675e-05
+Mistral-7B-Instruct-v0.3,2,What are sustainable AI practices?,3.8039,"What are sustainable AI practices?
+
+Sustainable AI practices refer to the methods and strategies used to ensure that the development, deployment, and use of artificial intelligence (AI) systems are environmentally friendly, socially responsible, and economically viable. These practices aim to minimize",4.2691775749417545e-05
+Mistral-7B-Instruct-v0.3,3,Explain the importance of renewable energy.,3.8098,"Explain the importance of renewable energy.
+
+Renewable energy is crucial for several reasons:
+
+1. Sustainability: Renewable energy sources, such as solar, wind, hydro, and geothermal, are virtually inexhaustible. Unlike fossil",4.279170680269393e-05
+Mistral-7B-Instruct-v0.3,3,What is the carbon footprint of AI?,3.8139,"What is the carbon footprint of AI?
+
+Artificial intelligence (AI) is a rapidly growing field that has the potential to revolutionize many aspects of our lives, from healthcare to transportation to entertainment. However, like any technology, AI has an environmental impact, and its carbon footprint",4.2555366732658925e-05
+Mistral-7B-Instruct-v0.3,3,How does machine learning help climate change?,3.8024,"How does machine learning help climate change?
+
+Machine learning can help address climate change in several ways:
+
+1. Predictive Modeling: Machine learning algorithms can be used to create more accurate models of climate systems, helping scientists better understand the causes and effects of climate change.",4.21674107311911e-05
+Mistral-7B-Instruct-v0.3,3,Explain large language models in simple words.,3.7949,"Explain large language models in simple words.
+
+Large language models are computer programs that have been trained on a vast amount of text data. They are designed to understand and generate human-like text based on the input they receive. These models can answer questions, write essays, summarize articles",4.2264113238097136e-05
+Mistral-7B-Instruct-v0.3,3,What are sustainable AI practices?,3.8029,"What are sustainable AI practices?
+
+Sustainable AI practices refer to the methods and strategies used to ensure that the development, deployment, and use of artificial intelligence (AI) systems are environmentally friendly, socially responsible, and economically viable. These practices aim to minimize",4.225377196187679e-05
+Mistral-7B-Instruct-v0.3,4,Explain the importance of renewable energy.,3.812,"Explain the importance of renewable energy.
+
+Renewable energy is crucial for several reasons:
+
+1. Sustainability: Renewable energy sources, such as solar, wind, hydro, and geothermal, are virtually inexhaustible. Unlike fossil",4.257245167886242e-05
+Mistral-7B-Instruct-v0.3,4,What is the carbon footprint of AI?,3.7988,"What is the carbon footprint of AI?
+
+Artificial intelligence (AI) is a rapidly growing field that has the potential to revolutionize many aspects of our lives, from healthcare to transportation to entertainment. However, like any technology, AI has an environmental impact, and its carbon footprint",4.23976511632913e-05
+Mistral-7B-Instruct-v0.3,4,How does machine learning help climate change?,3.8066,"How does machine learning help climate change?
+
+Machine learning can help address climate change in several ways:
+
+1. Predictive Modeling: Machine learning algorithms can be used to create more accurate models of climate systems, helping scientists better understand the causes and effects of climate change.",4.210562193812756e-05
+Mistral-7B-Instruct-v0.3,4,Explain large language models in simple words.,3.8409,"Explain large language models in simple words.
+
+Large language models are computer programs that have been trained on a vast amount of text data. They are designed to understand and generate human-like text based on the input they receive. These models can answer questions, write essays, summarize articles",4.2306613728750185e-05
+Mistral-7B-Instruct-v0.3,4,What are sustainable AI practices?,3.7934,"What are sustainable AI practices?
+
+Sustainable AI practices refer to the methods and strategies used to ensure that the development, deployment, and use of artificial intelligence (AI) systems are environmentally friendly, socially responsible, and economically viable. These practices aim to minimize",4.222453580112031e-05
+Mistral-7B-Instruct-v0.3,5,Explain the importance of renewable energy.,3.8078,"Explain the importance of renewable energy.
+
+Renewable energy is crucial for several reasons:
+
+1. Sustainability: Renewable energy sources, such as solar, wind, hydro, and geothermal, are virtually inexhaustible. Unlike fossil",4.237617024403706e-05
+Mistral-7B-Instruct-v0.3,5,What is the carbon footprint of AI?,3.8244,"What is the carbon footprint of AI?
+
+Artificial intelligence (AI) is a rapidly growing field that has the potential to revolutionize many aspects of our lives, from healthcare to transportation to entertainment. However, like any technology, AI has an environmental impact, and its carbon footprint",4.241947372644945e-05
+Mistral-7B-Instruct-v0.3,5,How does machine learning help climate change?,3.8161,"How does machine learning help climate change?
+
+Machine learning can help address climate change in several ways:
+
+1. Predictive Modeling: Machine learning algorithms can be used to create more accurate models of climate systems, helping scientists better understand the causes and effects of climate change.",4.222230250559218e-05
+Mistral-7B-Instruct-v0.3,5,Explain large language models in simple words.,3.8071,"Explain large language models in simple words.
+
+Large language models are computer programs that have been trained on a vast amount of text data. They are designed to understand and generate human-like text based on the input they receive. These models can answer questions, write essays, summarize articles",4.2052233941933665e-05
+Mistral-7B-Instruct-v0.3,5,What are sustainable AI practices?,3.8247,"What are sustainable AI practices?
+
+Sustainable AI practices refer to the methods and strategies used to ensure that the development, deployment, and use of artificial intelligence (AI) systems are environmentally friendly, socially responsible, and economically viable. These practices aim to minimize",4.197879488513976e-05
