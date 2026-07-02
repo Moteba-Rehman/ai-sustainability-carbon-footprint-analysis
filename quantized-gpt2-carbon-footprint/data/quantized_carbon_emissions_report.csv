@@ -1,0 +1,2 @@
+Model,Total Runs,Total Runtime (s),CO2 Emissions (kg),CO2 per Inference (kg),Runtime per Inference (s),GPU Hours,Estimated kWh per Inference
+Quantized GPT-2,25,33.99797344207764,0.0003845300906599,1.5381203626396e-05,1.3599189376831056,0.009443881511688233,3.3982540066843996e-05

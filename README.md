@@ -6,9 +6,9 @@ A research project focused on understanding, measuring, and analyzing the carbon
 
 ## Project Overview
 
-This repository contains the work completed as part of an 8-week research internship on **Generative AI Carbon Footprint Analysis**. The project investigates how Generative AI models consume computational resources, energy, and generate carbon emissions during inference. Carbon accounting tools and standardized experiments were used to evaluate and compare the environmental impact of multiple open-source language models.
+This repository contains the work completed as part of an 8-week research internship on **Generative AI Carbon Footprint Analysis**. The project investigates how Generative AI models consume computational resources, energy, and generate carbon emissions during inference. Carbon accounting tools and standardized experiments were used to evaluate the environmental impact of multiple open-source language models and optimization techniques.
 
-The repository includes literature review reports, carbon tracking tool evaluations, experiment source code, datasets, comparison reports, visualizations, and supporting documentation.
+The repository includes literature review reports, carbon tracking tool evaluations, experiment source code, datasets, comparison reports, presentations, visualizations, and supporting documentation.
 
 ---
 
@@ -19,6 +19,7 @@ The repository includes literature review reports, carbon tracking tool evaluati
 - Evaluate carbon accounting tools for AI workloads.
 - Measure runtime, energy consumption, and carbon emissions of language models.
 - Compare multiple open-source LLMs under identical experimental conditions.
+- Evaluate optimization techniques such as model quantization.
 - Promote environmentally sustainable AI through carbon-aware experimentation.
 
 ---
@@ -33,7 +34,9 @@ The repository includes literature review reports, carbon tracking tool evaluati
 ├── llama-carbon-footprint/
 ├── qwen-carbon-footprint/
 ├── mistral-carbon-footprint/
+├── quantized-gpt2-carbon-footprint/
 ├── comparison/
+├── presentations/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -138,16 +141,32 @@ Generated:
 
 ---
 
+### Quantized GPT-2 Energy Profiling
+
+Evaluated the impact of **Dynamic INT8 Quantization** on GPT-2 inference.
+
+Generated:
+
+- Quantized GPT-2 inference scripts
+- CodeCarbon logs
+- Carbon emission reports
+- Hardware specification report
+- FLOPs estimation report
+- Quantized GPT-2 comparison dataset
+
+The experiments demonstrate how quantization improves computational efficiency while reducing runtime, energy consumption, and estimated carbon emissions without noticeably affecting inference quality.
+
+---
+
 ### Comparative Analysis
 
 Performed comparative analysis across:
 
-- GPT-2
-- GPT-2 Medium
-- GPT-2 Large
+- GPT-2 family
 - TinyLlama-1.1B-Chat-v1.0
 - Qwen2.5-1.5B-Instruct
 - Mistral-7B-Instruct-v0.3
+- Quantized GPT-2
 
 Comparison metrics include:
 
@@ -190,6 +209,7 @@ Comparison metrics include:
 - FLOPs estimation reports
 - Comparison reports
 - CSV datasets
+- Presentations
 - Visualizations
 - Screenshots
 
@@ -219,9 +239,10 @@ https://www.kaggle.com/code/moteba/ai-carbon-footprint-analysis-tool-comparison
 
 - Carbon emissions generally increase with computational workload and inference time.
 - Larger language models require greater computational resources and produce higher estimated carbon emissions.
-- Efficient modern transformer architectures such as TinyLlama demonstrate lower environmental impact despite competitive performance.
-- CodeCarbon provides detailed runtime, energy, and carbon emission measurements suitable for AI workloads.
-- Model architecture, inference optimization, and hardware acceleration significantly influence the environmental sustainability of Generative AI systems.
+- Efficient transformer architectures such as TinyLlama achieve lower environmental impact despite competitive performance.
+- Dynamic INT8 quantization significantly improves inference efficiency while maintaining comparable output quality.
+- CodeCarbon provides detailed runtime, energy consumption, and carbon emission measurements suitable for AI workloads.
+- Model architecture, optimization techniques, and hardware acceleration all play important roles in improving the sustainability of Generative AI systems.
 
 ---
 
