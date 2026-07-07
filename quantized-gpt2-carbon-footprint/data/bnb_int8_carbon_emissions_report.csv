@@ -1,0 +1,2 @@
+Model,Total Runs,Total Runtime (s),Runtime per Inference (s),CO2 Emissions (kg),CO2 per Inference (kg),Estimated kWh per Inference,GPU Hours
+GPT-2 BitsAndBytes INT8,25,42.28522348403931,1.6914089393615723,0.0008955826009919,3.5823304039676e-05,0.000133857844421152,0.011745895412233141

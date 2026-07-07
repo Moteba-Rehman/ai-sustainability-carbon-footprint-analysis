@@ -1,0 +1,6 @@
+Model,Total Runs,Total Runtime (s),Runtime per Inference (s),CO2 Emissions (kg),CO2 per Inference (kg),Estimated kWh per Inference,GPU Hours
+FP32,25,13.2213,0.528852,0.000103,4e-06,5e-05,0.003673
+FP16,25,13.591979,0.543679,0.000104,4e-06,1.6e-05,0.003776
+BitsAndBytes 4-bit (NF4),25,26.697688,1.067908,0.000194,8e-06,2.9e-05,0.007416
+Dynamic INT8,25,36.347023,1.453881,0.000258,1e-05,3.9e-05,0.010096
+BitsAndBytes INT8,25,42.285223,1.691409,0.000896,3.6e-05,0.000134,0.011746

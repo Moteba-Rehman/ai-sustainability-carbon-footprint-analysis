@@ -1,0 +1,2 @@
+Model,Total Runs,Total Runtime (s),CO2 Emissions (kg),CO2 per Inference (kg),Runtime per Inference (s),GPU Hours,Estimated kWh per Inference
+BitsAndBytes 4-bit (NF4),25,26.697688341140747,0.0001942742523024,7.770970092096e-06,1.0679075336456298,0.007416024539205763,2.9037112390232e-05

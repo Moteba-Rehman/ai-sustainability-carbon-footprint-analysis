@@ -21,6 +21,7 @@ The repository includes literature review reports, carbon tracking tool evaluati
 - Compare multiple open-source LLMs under identical experimental conditions.
 - Evaluate optimization techniques such as model quantization.
 - Promote environmentally sustainable AI through carbon-aware experimentation.
+- Compare multiple quantization strategies for improving the energy efficiency of transformer-based language models.
 
 ---
 
@@ -143,7 +144,12 @@ Generated:
 
 ### Quantized GPT-2 Energy Profiling
 
-Evaluated the impact of **Dynamic INT8 Quantization** on GPT-2 inference.
+Evaluated multiple quantization methods for GPT-2 inference:
+
+- FP16
+- Dynamic INT8 Quantization (PyTorch)
+- BitsAndBytes INT8
+- BitsAndBytes 4-bit (NF4)
 
 Generated:
 
@@ -152,9 +158,10 @@ Generated:
 - Carbon emission reports
 - Hardware specification report
 - FLOPs estimation report
-- Quantized GPT-2 comparison dataset
+- Quantization methods comparison dataset
+- Performance visualizations
 
-The experiments demonstrate how quantization improves computational efficiency while reducing runtime, energy consumption, and estimated carbon emissions without noticeably affecting inference quality.
+The experiments compare multiple quantization strategies under identical experimental conditions to evaluate their impact on runtime, energy consumption, GPU utilization, and estimated carbon emissions. The study highlights that lower numerical precision does not always result in faster inference, emphasizing the importance of hardware-aware evaluation for sustainable AI deployment.
 
 ---
 
@@ -162,11 +169,11 @@ The experiments demonstrate how quantization improves computational efficiency w
 
 Performed comparative analysis across:
 
-- GPT-2 family
+- GPT-2 model variants (GPT-2, GPT-2 Medium, GPT-2 Large)
+- GPT-2 quantization methods (FP32, FP16, Dynamic INT8, BitsAndBytes INT8, BitsAndBytes 4-bit)
 - TinyLlama-1.1B-Chat-v1.0
 - Qwen2.5-1.5B-Instruct
 - Mistral-7B-Instruct-v0.3
-- Quantized GPT-2
 
 Comparison metrics include:
 
@@ -174,8 +181,8 @@ Comparison metrics include:
 - Runtime per inference
 - Total CO₂ emissions
 - CO₂ emissions per inference
+- Estimated energy consumption per inference
 - GPU hours
-- Estimated energy consumption
 - Performance visualizations
 
 ---
@@ -208,6 +215,7 @@ Comparison metrics include:
 - Hardware specification reports
 - FLOPs estimation reports
 - Comparison reports
+- Quantization methods comparison datasets
 - CSV datasets
 - Presentations
 - Visualizations
@@ -240,9 +248,11 @@ https://www.kaggle.com/code/moteba/ai-carbon-footprint-analysis-tool-comparison
 - Carbon emissions generally increase with computational workload and inference time.
 - Larger language models require greater computational resources and produce higher estimated carbon emissions.
 - Efficient transformer architectures such as TinyLlama achieve lower environmental impact despite competitive performance.
-- Dynamic INT8 quantization significantly improves inference efficiency while maintaining comparable output quality.
+- FP32 and FP16 achieved nearly identical inference performance and environmental impact for GPT-2 on the NVIDIA Tesla T4 GPU.
+- Among the evaluated quantization methods, BitsAndBytes 4-bit (NF4) provided the best balance between runtime, energy consumption, and carbon emissions.
+- Dynamic INT8 and BitsAndBytes INT8 introduced additional execution overhead despite reducing theoretical computational complexity.
 - CodeCarbon provides detailed runtime, energy consumption, and carbon emission measurements suitable for AI workloads.
-- Model architecture, optimization techniques, and hardware acceleration all play important roles in improving the sustainability of Generative AI systems.
+- Model architecture, quantization strategy, and hardware capabilities all influence the environmental sustainability of Generative AI systems.
 
 ---
 

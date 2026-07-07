@@ -1,0 +1,2 @@
+Model,Total Runs,Total Runtime (s),Runtime per Inference (s),CO2 Emissions (kg),CO2 per Inference (kg),Estimated kWh per Inference,GPU Hours
+GPT-2 FP16,25,13.591979026794434,0.5436791610717774,0.0001043030304543,4.172121218172e-06,1.5589604808916002e-05,0.0037755497296651204
