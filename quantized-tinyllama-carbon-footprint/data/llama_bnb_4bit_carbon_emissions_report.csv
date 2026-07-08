@@ -1,0 +1,2 @@
+Model,Total Runs,Total Runtime (s),Runtime per Inference (s),CO2 Emissions (kg),CO2 per Inference (kg),Estimated kWh per Inference,GPU Hours
+TinyLlama BitsAndBytes 4-bit,25,68.51838040351868,2.740735216140747,0.0007933448719599,3.1733794878396e-05,7.0111220299904e-05,0.019032883445421856

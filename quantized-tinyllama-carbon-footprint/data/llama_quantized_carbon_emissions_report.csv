@@ -1,0 +1,2 @@
+Model,Total Runs,Total Runtime (s),Runtime per Inference (s),CO2 Emissions (kg),CO2 per Inference (kg),Estimated kWh per Inference,GPU Hours
+TinyLlama Dynamic INT8,25,120.36570262908936,4.814628105163575,0.001343463094112,5.3738523764479995e-05,0.000118727479416844,0.033434917396969265

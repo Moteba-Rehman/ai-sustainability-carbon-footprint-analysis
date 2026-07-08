@@ -163,6 +163,21 @@ Generated:
 
 The experiments compare multiple quantization strategies under identical experimental conditions to evaluate their impact on runtime, energy consumption, GPU utilization, and estimated carbon emissions. The study highlights that lower numerical precision does not always result in faster inference, emphasizing the importance of hardware-aware evaluation for sustainable AI deployment.
 
+### TinyLlama Quantization Energy Profiling
+
+Evaluated the impact of multiple quantization techniques on TinyLlama inference.
+
+Generated:
+
+- FP16 inference implementation
+- Dynamic INT8 inference
+- BitsAndBytes INT8 inference
+- BitsAndBytes 4-bit (NF4) inference
+- CodeCarbon logs
+- Carbon emission reports
+- Comparison dataset
+- Performance visualizations
+
 ---
 
 ### Comparative Analysis
@@ -253,6 +268,11 @@ https://www.kaggle.com/code/moteba/ai-carbon-footprint-analysis-tool-comparison
 - Dynamic INT8 and BitsAndBytes INT8 introduced additional execution overhead despite reducing theoretical computational complexity.
 - CodeCarbon provides detailed runtime, energy consumption, and carbon emission measurements suitable for AI workloads.
 - Model architecture, quantization strategy, and hardware capabilities all influence the environmental sustainability of Generative AI systems.
+- The impact of quantization varied across models and hardware configurations.
+- FP16 provided the best performance for GPT-2.
+- TinyLlama achieved its best performance using the FP32 baseline, while quantized variants introduced additional computational overhead.
+- BitsAndBytes 4-bit consistently outperformed the other evaluated quantization techniques.
+- Quantization does not universally reduce runtime or carbon emissions and should be evaluated experimentally.
 
 ---
 

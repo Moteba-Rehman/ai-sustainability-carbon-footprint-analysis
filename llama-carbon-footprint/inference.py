@@ -1,10 +1,11 @@
+# LLaMA Carbon Footprint Measurement
+
 from codecarbon import EmissionsTracker
 from transformers import pipeline
 import pandas as pd
 import time
 import torch
 
-# Same prompts as GPT-2
 prompts = [
     "Explain the importance of renewable energy.",
     "What is the carbon footprint of AI?",
@@ -13,7 +14,6 @@ prompts = [
     "What are sustainable AI practices?"
 ]
 
-# Official Meta LLaMA model
 model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 
 device = 0 if torch.cuda.is_available() else -1
@@ -25,6 +25,23 @@ generator = pipeline(
     model=model_name,
     device=device
 )
+
+# ----------------------------------------------------
+# Warm-up (NOT measured)
+# ----------------------------------------------------
+print("Running warm-up inference...")
+
+_ = generator(
+    prompts[0],
+    max_new_tokens=50,
+    do_sample=False
+)
+
+print("Warm-up complete.\n")
+
+# ----------------------------------------------------
+# Actual experiment
+# ----------------------------------------------------
 
 results = []
 
@@ -67,7 +84,7 @@ experiment_df = pd.DataFrame(results)
 
 carbon_df = pd.DataFrame([{
     "Model": "TinyLlama-1.1B-Chat-v1.0",
-    "Total Runs": 25,
+    "Total Runs": len(experiment_df),
     "Total Runtime (s)": round(total_runtime, 4),
     "CO2 Emissions (kg)": emissions
 }])
@@ -79,3 +96,6 @@ print("✅ LLaMA experiment completed!")
 
 display(experiment_df.head())
 display(carbon_df)
+
+print("\nRuntime Statistics")
+print(experiment_df["Runtime (s)"].describe())

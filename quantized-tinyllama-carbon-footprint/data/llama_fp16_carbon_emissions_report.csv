@@ -1,0 +1,2 @@
+Model,Total Runs,Total Runtime (s),Runtime per Inference (s),CO2 Emissions (kg),CO2 per Inference (kg),Estimated kWh per Inference,GPU Hours
+TinyLlama FP16,25,43.02239012718201,1.7208956050872803,0.0005372063154322,2.1488252617288e-05,4.7475179658899996e-05,0.011950663924217224
