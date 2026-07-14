@@ -32,10 +32,14 @@ The repository includes literature review reports, carbon tracking tool evaluati
 ├── literature-review/
 ├── co2-tracking-tools/
 ├── gpt2-carbon-footprint/
-├── llama-carbon-footprint/
+├── tinyllama-carbon-footprint/
 ├── qwen-carbon-footprint/
 ├── mistral-carbon-footprint/
 ├── quantized-gpt2-carbon-footprint/
+├── quantized-tinyllama-carbon-footprint/
+├── instagram-data-collection/
+├── tiktok-data-collection/
+├── youtube-data-collection/
 ├── comparison/
 ├── presentations/
 ├── README.md
@@ -180,6 +184,45 @@ Generated:
 
 ---
 
+### Social Media Data Collection
+
+Collected publicly available datasets to support trend analysis of AI-generated Ghibli-style content across major social media platforms.
+
+The same keywords were used consistently across all platforms:
+
+- ghibliart
+- ghiblistyle
+- ghiblistudio
+- ghiblitrend
+
+Platforms completed:
+
+#### Instagram
+
+- Public posts collected using Apify
+- Cleaned dataset exported as CSV
+
+#### TikTok
+
+- Public videos collected using Apify
+- Duplicate removal and dataset cleaning
+- Cleaned dataset exported as CSV
+
+#### YouTube
+
+- Public videos collected using yt-dlp
+- Dataset generated using keyword-based search
+- Cleaned dataset exported as CSV
+
+Each platform contains:
+
+- Data collection notebook
+- Requirements file
+- Cleaned dataset
+- Supporting reports
+
+---
+
 ### Comparative Analysis
 
 Performed comparative analysis across:
@@ -225,6 +268,8 @@ Comparison metrics include:
 - CO₂ tracking tool reports
 - Python source code
 - Experiment datasets
+- Social media datasets
+- Data collection notebooks
 - CodeCarbon logs
 - Carbon emission reports
 - Hardware specification reports
@@ -255,6 +300,9 @@ https://huggingface.co/datasets/MotebaRehman/ai-carbon-footprint-experiment-logs
 ### Kaggle Notebook
 
 https://www.kaggle.com/code/moteba/ai-carbon-footprint-analysis-tool-comparison
+- Instagram Data Collection: https://www.kaggle.com/code/moteba/instagram-data-collection
+- TikTok Data Collection: https://www.kaggle.com/code/moteba/tiktok-data-collection
+- YouTube Data Collection: https://www.kaggle.com/code/moteba/youtube-data-collection
 
 ---
 
